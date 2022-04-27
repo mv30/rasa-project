@@ -1,6 +1,23 @@
 version: "3.1"
 
 nlu:
+
+- intent: hunger
+  examples: |
+    - i am hungry
+    - i am famished
+    - i want to eat somthing
+    - i want something to eat
+    - let's eat
+    - let's grab something to eat
+    - let's grab a bite
+    - really hungry
+    - is there some food ?
+    - is there something to eat ?
+    - want to grab a bite ?
+    - want to have to have something to eat ?
+    - let's go for a meal
+
 - intent: greet
   examples: |
     - hey

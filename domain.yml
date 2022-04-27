@@ -1,6 +1,7 @@
 version: "3.1"
 
 intents:
+  - hunger
   - greet
   - goodbye
   - affirm
@@ -10,6 +11,10 @@ intents:
   - bot_challenge
 
 responses:
+
+  utter_hunger_solution:
+  - text: "Oh no worries I have got this. Tell me whats your location ?"
+
   utter_greet:
   - text: "Hey! How are you?"
 

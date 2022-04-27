@@ -2,6 +2,13 @@ version: "3.1"
 
 stories:
 
+- story: hunger path
+  steps:
+  - intent: hunger
+  - action: utter_hunger_solution
+  - intent: mood_great
+  - action: utter_happy
+
 - story: happy path
   steps:
   - intent: greet
